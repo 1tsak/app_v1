@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="7.0dip"
+        app:cardPreventCornerOverlap="true">
+
+        <RelativeLayout
+            android:id="@+id/mainRL"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <RelativeLayout
+                android:id="@+id/topHeader"
+                android:layout_width="fill_parent"
+                android:layout_height="?actionBarSize"
+                android:background="@color/blueRandom">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="@font/lato_black"
+                    android:text="Account Verification"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                    android:textColor="#ffffffff" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/otpInfoText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/topHeader"
+                android:layout_marginLeft="15.0dip"
+                android:layout_marginTop="15.0dip"
+                android:layout_marginRight="15.0dip"
+                android:layout_marginBottom="10.0dip"
+                android:fontFamily="@font/lato"
+                android:gravity="center"
+                android:text="@string/otp_text"
+                android:textSize="15.0sp"
+                android:visibility="visible" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/editText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/otpInfoText"
+                android:layout_marginTop="13.0dip"
+                android:layout_marginBottom="7.0dip">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/otpEditText"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="35.0dip"
+                    android:layout_marginTop="15.0dip"
+                    android:layout_marginRight="35.0dip"
+                    android:fontFamily="@font/lato"
+                    android:hint="Enter OTP"
+                    android:paddingLeft="7.0dip"
+                    android:paddingRight="7.0dip"
+                    android:singleLine="true" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:id="@+id/timerOTP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/editText"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="38.0dip"
+                android:clickable="false"
+                android:fontFamily="@font/lato_black"
+                android:text="00:59"
+                android:textColor="@color/successGreen"
+                android:textSize="15.0sp"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/resendOTP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/editText"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="38.0dip"
+                android:clickable="false"
+                android:fontFamily="@font/lato_black"
+                android:text="Resend OTP"
+                android:textSize="15.0sp"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/textError"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/timerOTP"
+                android:layout_marginLeft="38.0dip"
+                android:layout_marginTop="5.0dip"
+                android:layout_marginBottom="2.0dip"
+                android:fontFamily="@font/lato"
+                android:text="Something wrong..."
+                android:textColor="@color/errorRed"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textError"
+                android:layout_margin="15.0dip"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:padding="10.0dip">
+
+                    <Button
+                        android:id="@+id/cancel"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/background1"
+                        android:backgroundTint="#ff757575"
+                        android:fontFamily="@font/lato"
+                        android:text="Cancel"
+                        android:textAllCaps="true"
+                        android:textColor="#ffffffff"
+                        android:textSize="15.0sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:padding="10.0dip">
+
+                    <Button
+                        android:id="@+id/next"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/background1"
+                        android:backgroundTint="@color/blueRandom"
+                        android:fontFamily="@font/lato"
+                        android:text="Next"
+                        android:textAllCaps="true"
+                        android:textColor="#ffffffff"
+                        android:textSize="15.0sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

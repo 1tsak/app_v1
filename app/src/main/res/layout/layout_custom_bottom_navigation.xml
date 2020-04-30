@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/darkBlue"
+    android:baselineAligned="false"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/myContestLayout"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.1"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingTop="3dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="3dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="5dp"
+            android:layout_height="5dp"
+            android:layout_gravity="right"
+            android:layout_marginRight="30dp"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/contestIv"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_gravity="center"
+            android:padding="4dp"
+            android:src="@drawable/ic_inr"
+            android:tint="@color/colorBottomNavigationInactiveColored" />
+
+        <TextView
+            android:id="@+id/contestTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Earn"
+            android:textColor="@color/colorBottomNavigationInactiveColored"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/homeLayout"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.1"
+        android:orientation="vertical"
+        android:paddingLeft="5dp"
+        android:paddingTop="3dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="3dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="5dp"
+            android:layout_height="5dp"
+            android:layout_gravity="right"
+            android:layout_marginRight="30dp"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/homeIv"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:src="@drawable/ic_play"
+            android:tint="@color/colorBottomNavigationActiveColored" />
+
+        <TextView
+            android:id="@+id/homeTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Play"
+            android:textColor="@color/colorBottomNavigationActiveColored"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/myAccountLayout"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.1"
+        android:orientation="vertical"
+        android:paddingLeft="5dp"
+        android:paddingTop="3dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="3dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="5dp"
+            android:layout_height="5dp"
+            android:layout_gravity="right"
+            android:layout_marginRight="30dp"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/accountIv"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:src="@drawable/ic_me"
+            android:tint="@color/colorBottomNavigationInactiveColored" />
+
+        <TextView
+            android:id="@+id/accountTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Me"
+            android:textColor="@color/colorBottomNavigationInactiveColored"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</LinearLayout>
+

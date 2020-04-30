@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.RewardEarnActivity">
+
+    <include layout="@layout/appbar" />
+
+    <LinearLayout
+        android:id="@+id/noRewardOffer"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/darkBlue"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="300.0dip"
+            android:layout_height="300.0dip"
+            android:layout_gravity="center"
+            android:layout_marginTop="65.0dip"
+            android:src="@drawable/referandearn" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15.0dip"
+            android:gravity="center"
+            android:text="@string/reward_offer_paused"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textColor="@color/colorAccent" />
+
+        <TextView
+            android:id="@+id/rewardExpiredText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15.0dip"
+            android:fontFamily="@font/lato"
+            android:gravity="center"
+            android:text="@string/reward_offer_is_currently_under_maintenance_nstay_tuned_for_further_updates"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textColor="#ffffffff" />
+    </LinearLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:id="@+id/rewardLL"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/darkBlue"
+                android:orientation="vertical"
+                android:paddingBottom="20.0dip">
+
+                <ImageView
+                    android:layout_width="100.0dip"
+                    android:layout_height="100.0dip"
+                    android:layout_gravity="center"
+                    android:src="@drawable/refer" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15.0dip"
+                    android:fontFamily="@font/lato_black"
+                    android:gravity="center"
+                    android:text="@string/watch_more_to_earn_more"
+                    android:textAllCaps="true"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                    android:textColor="#ffecab31"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/rewardMessage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10.0dip"
+                    android:layout_marginTop="10.0dip"
+                    android:layout_marginRight="10.0dip"
+                    android:fontFamily="@font/lato"
+                    android:gravity="center"
+                    android:text="@string/desc_reward"
+                    android:textColor="#ffffffff"
+                    android:textSize="15.0sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/infoNote"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15.0dip"
+                    android:text="@string/complete_task"
+                    android:textAllCaps="true"
+                    android:textColor="#ff302f2f"
+                    android:textSize="15.0sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/counterTimer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15.0dip"
+                    android:background="@drawable/dotted_border"
+                    android:fontFamily="@font/lato_black"
+                    android:gravity="center"
+                    android:minWidth="125dp"
+                    android:padding="15.0dip"
+                    android:text="00:00:00"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                    android:textColor="#ff000000" />
+
+                <ImageView
+                    android:id="@+id/howreward"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200.0dip"
+                    android:layout_marginTop="5.0dip"
+                    android:focusable="true"
+                    android:src="@drawable/watch_n_earn" />
+
+                <Button
+                    android:id="@+id/rewardButton"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20.0dip"
+                    android:layout_marginTop="8.0dip"
+                    android:layout_marginRight="20.0dip"
+                    android:layout_marginBottom="10.0dip"
+                    android:background="@drawable/buttonback"
+                    android:backgroundTint="@color/darkBlue"
+                    android:fontFamily="@font/lato"
+                    android:text="@string/watch_now"
+                    android:textAllCaps="true"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                    android:textColor="#ffffffff"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15.0dip"
+                    android:text="@string/note_reward"
+                    android:textAllCaps="false"
+                    android:textColor="#ff302f2f"
+                    android:textSize="18.0sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

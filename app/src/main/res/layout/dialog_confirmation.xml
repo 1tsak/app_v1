@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0.0dip"
+        app:cardCornerRadius="7.0dip"
+        app:cardPreventCornerOverlap="true">
+
+        <RelativeLayout
+            android:id="@+id/mainRL"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <RelativeLayout
+                android:id="@+id/HeadText"
+                android:layout_width="fill_parent"
+                android:layout_height="?actionBarSize"
+                android:background="@color/blueRandom">
+
+                <TextView
+                    android:id="@+id/titleTv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="@font/lato_black"
+                    android:text="Confirmation"
+                    android:textAllCaps="true"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                    android:textColor="#ffffffff"
+                    android:textSize="25.0sp" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/subTitleTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/HeadText"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="15.0dip"
+                android:fontFamily="@font/lato_black"
+                android:text="Congratulations!!!"
+                android:textColor="@color/successGreen"
+                android:textSize="17.0sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/noteTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/subTitleTv"
+                android:layout_marginLeft="15.0dip"
+                android:layout_marginTop="15.0dip"
+                android:layout_marginRight="15.0dip"
+                android:fontFamily="@font/lato"
+                android:text="Congratulations!!! You have successfully joined this match. Entry fee has been deducted from your account if any. Room Id and Password are visible in match description before 15 minutes."
+                android:textAlignment="center"
+                android:textSize="15.0sp" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/noteTv"
+                android:layout_margin="15.0dip"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:padding="10.0dip">
+
+                    <Button
+                        android:id="@+id/cancelBt"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/background1"
+                        android:backgroundTint="#ff757575"
+                        android:fontFamily="@font/lato"
+                        android:text="@string/cancel"
+                        android:textAllCaps="true"
+                        android:textColor="#ffffffff"
+                        android:textSize="15.0sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:padding="10.0dip">
+
+                    <Button
+                        android:id="@+id/okBt"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/background1"
+                        android:backgroundTint="@color/blueRandom"
+                        android:fontFamily="@font/lato"
+                        android:text="Okay"
+                        android:textAllCaps="true"
+                        android:textColor="#ffffffff"
+                        android:textSize="15.0sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

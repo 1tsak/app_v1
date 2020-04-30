@@ -1,0 +1,93 @@
+{
+  "project_info": {
+    "project_number": "785385488367",
+    "firebase_url": "https://winbazi.firebaseio.com",
+    "project_id": "winbazi",
+    "storage_bucket": "winbazi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:785385488367:android:809b7868312c9d494ec01a",
+        "android_client_info": {
+          "package_name": "com.CsBoywinbazi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "785385488367-ai9hqhafa7k3ski2u94mf0oeq2d5gknh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.CsBoywinbazi",
+            "certificate_hash": "7fdeb492ffb62d410923a2e0e4cd701abbb68cfb"
+          }
+        },
+        {
+          "client_id": "785385488367-9ntaorjl9o3j7h9buebmhv6rq5uqcalr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.CsBoywinbazi",
+            "certificate_hash": "8b7aafaddaad978bf8e3d7e884d8e087aa3e9fee"
+          }
+        },
+        {
+          "client_id": "785385488367-svshlqog8bc1p2uheslf7vno2mudrref.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtZ5yETvfkBL4opBgK2HWueJ0_n3ApZAw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "785385488367-svshlqog8bc1p2uheslf7vno2mudrref.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:785385488367:android:3fd5968c0956ac6a4ec01a",
+        "android_client_info": {
+          "package_name": "com.oadevelopers.winbazi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "785385488367-u0pg70945q0sf92o3rfogdfkchsoc8lo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.oadevelopers.winbazi",
+            "certificate_hash": "0f99fbc69e5e20e4e4bd8c382a129f9b2897432f"
+          }
+        },
+        {
+          "client_id": "785385488367-svshlqog8bc1p2uheslf7vno2mudrref.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtZ5yETvfkBL4opBgK2HWueJ0_n3ApZAw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "785385488367-svshlqog8bc1p2uheslf7vno2mudrref.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

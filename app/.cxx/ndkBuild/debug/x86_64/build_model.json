@@ -1,0 +1,60 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "C:\\Users\\AKBROS\\Downloads\\codecanyon-25935289-multi-games-tournament-app-with-landing-page-admin-panel\\Codecanyon-EsportsMultiGameTournamentApp\\code_app\\app_v1",
+      "sdkFolder": "C:\\Users\\AKBROS\\AppData\\Local\\Android\\Sdk",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "C:\\Users\\AKBROS\\Downloads\\codecanyon-25935289-multi-games-tournament-app-with-landing-page-admin-panel\\Codecanyon-EsportsMultiGameTournamentApp\\code_app\\app_v1\\app\\build\\intermediates",
+      "gradleModulePathName": ":app",
+      "moduleRootFolder": "C:\\Users\\AKBROS\\Downloads\\codecanyon-25935289-multi-games-tournament-app-with-landing-page-admin-panel\\Codecanyon-EsportsMultiGameTournamentApp\\code_app\\app_v1\\app",
+      "makeFile": "C:\\Users\\AKBROS\\Downloads\\codecanyon-25935289-multi-games-tournament-app-with-landing-page-admin-panel\\Codecanyon-EsportsMultiGameTournamentApp\\code_app\\app_v1\\app\\src\\main\\jni\\Android.mk",
+      "buildSystem": "NDK_BUILD",
+      "compilerSettingsCacheFolder": "C:\\Users\\AKBROS\\Downloads\\codecanyon-25935289-multi-games-tournament-app-with-landing-page-admin-panel\\Codecanyon-EsportsMultiGameTournamentApp\\code_app\\app_v1\\.cxx",
+      "cxxFolder": "C:\\Users\\AKBROS\\Downloads\\codecanyon-25935289-multi-games-tournament-app-with-landing-page-admin-panel\\Codecanyon-EsportsMultiGameTournamentApp\\code_app\\app_v1\\app\\.cxx",
+      "ndkFolder": "C:\\Users\\AKBROS\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462",
+      "ndkVersion": "21.1.6352462",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [],
+    "cFlagList": [],
+    "cppFlagsList": [],
+    "variantName": "debug",
+    "soFolder": "C:\\Users\\AKBROS\\Downloads\\codecanyon-25935289-multi-games-tournament-app-with-landing-page-admin-panel\\Codecanyon-EsportsMultiGameTournamentApp\\code_app\\app_v1\\app\\build\\intermediates\\ndkBuild\\debug\\lib",
+    "objFolder": "C:\\Users\\AKBROS\\Downloads\\codecanyon-25935289-multi-games-tournament-app-with-landing-page-admin-panel\\Codecanyon-EsportsMultiGameTournamentApp\\code_app\\app_v1\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local",
+    "jsonFolder": "C:\\Users\\AKBROS\\Downloads\\codecanyon-25935289-multi-games-tournament-app-with-landing-page-admin-panel\\Codecanyon-EsportsMultiGameTournamentApp\\code_app\\app_v1\\app\\.cxx\\ndkBuild\\debug",
+    "gradleBuildOutputFolder": "C:\\Users\\AKBROS\\Downloads\\codecanyon-25935289-multi-games-tournament-app-with-landing-page-admin-panel\\Codecanyon-EsportsMultiGameTournamentApp\\code_app\\app_v1\\app\\.cxx\\cxx\\debug",
+    "isDebuggableEnabled": true,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "X86_64",
+  "abiPlatformVersion": 19,
+  "cxxBuildFolder": "C:\\Users\\AKBROS\\Downloads\\codecanyon-25935289-multi-games-tournament-app-with-landing-page-admin-panel\\Codecanyon-EsportsMultiGameTournamentApp\\code_app\\app_v1\\app\\.cxx\\ndkBuild\\debug\\x86_64",
+  "jsonFile": "C:\\Users\\AKBROS\\Downloads\\codecanyon-25935289-multi-games-tournament-app-with-landing-page-admin-panel\\Codecanyon-EsportsMultiGameTournamentApp\\code_app\\app_v1\\app\\.cxx\\ndkBuild\\debug\\x86_64\\android_gradle_build.json",
+  "gradleBuildOutputFolder": "C:\\Users\\AKBROS\\Downloads\\codecanyon-25935289-multi-games-tournament-app-with-landing-page-admin-panel\\Codecanyon-EsportsMultiGameTournamentApp\\code_app\\app_v1\\app\\.cxx\\cxx\\debug\\x86_64",
+  "objFolder": "C:\\Users\\AKBROS\\Downloads\\codecanyon-25935289-multi-games-tournament-app-with-landing-page-admin-panel\\Codecanyon-EsportsMultiGameTournamentApp\\code_app\\app_v1\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\x86_64",
+  "buildCommandFile": "C:\\Users\\AKBROS\\Downloads\\codecanyon-25935289-multi-games-tournament-app-with-landing-page-admin-panel\\Codecanyon-EsportsMultiGameTournamentApp\\code_app\\app_v1\\app\\.cxx\\ndkBuild\\debug\\x86_64\\build_command.txt",
+  "buildOutputFile": "C:\\Users\\AKBROS\\Downloads\\codecanyon-25935289-multi-games-tournament-app-with-landing-page-admin-panel\\Codecanyon-EsportsMultiGameTournamentApp\\code_app\\app_v1\\app\\.cxx\\ndkBuild\\debug\\x86_64\\build_output.txt",
+  "modelOutputFile": "C:\\Users\\AKBROS\\Downloads\\codecanyon-25935289-multi-games-tournament-app-with-landing-page-admin-panel\\Codecanyon-EsportsMultiGameTournamentApp\\code_app\\app_v1\\app\\.cxx\\ndkBuild\\debug\\x86_64\\build_model.json",
+  "jsonGenerationLoggingRecordFile": "C:\\Users\\AKBROS\\Downloads\\codecanyon-25935289-multi-games-tournament-app-with-landing-page-admin-panel\\Codecanyon-EsportsMultiGameTournamentApp\\code_app\\app_v1\\app\\.cxx\\ndkBuild\\debug\\x86_64\\json_generation_record.json",
+  "compileCommandsJsonFile": "C:\\Users\\AKBROS\\Downloads\\codecanyon-25935289-multi-games-tournament-app-with-landing-page-admin-panel\\Codecanyon-EsportsMultiGameTournamentApp\\code_app\\app_v1\\app\\.cxx\\ndkBuild\\debug\\x86_64\\compile_commands.json"
+}

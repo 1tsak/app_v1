@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="00.0dip"
+    app:cardCornerRadius="0.0dip"
+    app:cardPreventCornerOverlap="true">
+
+    <RelativeLayout
+        android:id="@id/mainRL"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent">
+
+        <RelativeLayout
+            android:id="@id/topHeader"
+            android:layout_width="fill_parent"
+            android:layout_height="?actionBarSize"
+            android:background="@color/blueRandom">
+
+            <TextView
+                android:id="@+id/titleTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:fontFamily="@font/lato_black"
+                android:text="Redeem Won Balance"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textColor="#ffffffff" />
+        </RelativeLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/editText1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/topHeader"
+            android:layout_marginTop="15dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/nameEt"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35.0dip"
+                android:layout_marginTop="15.0dip"
+                android:layout_marginRight="35.0dip"
+                android:fontFamily="@font/lato"
+                android:imeOptions="actionNext"
+                android:inputType="textPersonName"
+                android:maxLength="20"
+                android:paddingLeft="7.0dip"
+                android:singleLine="true" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/editText2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editText1"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="7.0dip">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/idEt"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35.0dip"
+                android:layout_marginTop="15.0dip"
+                android:layout_marginRight="35.0dip"
+                android:fontFamily="@font/lato"
+                android:imeOptions="actionDone"
+                android:inputType="none"
+                android:paddingLeft="7.0dip"
+                android:singleLine="true" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/noteTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editText2"
+            android:layout_marginLeft="35.0dip"
+            android:layout_marginTop="5.0dip"
+            android:layout_marginRight="35.0dip"
+            android:layout_marginBottom="2.0dip"
+            android:fontFamily="@font/lato"
+            android:text="Note: You can redeem only winning amount." />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/noteTv"
+            android:layout_margin="15.0dip"
+            android:baselineAligned="false"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:padding="10.0dip">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/closeBt"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/background1"
+                    android:backgroundTint="#ff757575"
+                    android:fontFamily="@font/lato"
+                    android:text="Cancel"
+                    android:textAllCaps="true"
+                    android:textColor="#ffffffff"
+                    android:textSize="15.0sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:padding="10.0dip">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/nextBt"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/background1"
+                    android:backgroundTint="@color/blueRandom"
+                    android:fontFamily="@font/lato"
+                    android:text="Proceed"
+                    android:textAllCaps="true"
+                    android:textColor="#ffffffff"
+                    android:textSize="15.0sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

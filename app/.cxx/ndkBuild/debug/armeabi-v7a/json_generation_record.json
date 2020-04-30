@@ -1,0 +1,14 @@
+[
+  {
+    "level": "INFO",
+    "message": "Start JSON generation. Platform version: 19 min SDK version: armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "JSON \u0027C:\\Users\\AKBROS\\Downloads\\codecanyon-25935289-multi-games-tournament-app-with-landing-page-admin-panel\\Codecanyon-EsportsMultiGameTournamentApp\\code_app\\app_v1\\app\\.cxx\\ndkBuild\\debug\\armeabi-v7a\\android_gradle_build.json\u0027 was up-to-date"
+  },
+  {
+    "level": "INFO",
+    "message": "JSON generation completed without problems"
+  }
+]
